@@ -1,0 +1,29 @@
+*{
+    overflow: hidden;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.givet{
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 45vw;
+    min-height: 25vh;
+}
+
+#redCircle{
+    min-width: 3vw;
+    min-height: 3vw;
+    border-radius: 50%;
+    background-color: red;
+}

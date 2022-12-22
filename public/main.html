@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script type="module" src="main.js" async defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="givet">
+                <button type="button" id="button">OFF</button>
+            </div>
+            <div class="givet">
+                <div id="redCircle"></div>
+                <button type="button" id="button1">Klicka här</button> </div>
+            
+            <div class="givet">
+                <h1 id="title">Min titel</h1>
+            </div>
+            <div class="givet">
+                <input type="text" />
+            </div>
+            <div class="givet">
+                <h1 id="h1"><h1>
+                    <button onclick="document.getElementById('h1').innerHTML = getRndInteger(0,11)">Klicka här</button> 
+                    <script>
+                        function getRndInteger(min, max) {
+                           return Math.floor(Math.random() * max)
+}
+                    </script>
+            </div>
+
+
+        </div>
+        
+        
+    </body>
+</html>
